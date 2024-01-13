@@ -1,0 +1,21 @@
+.blurred-button {
+  background-color: transparent;
+  backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+  border: 2px solid #ffffff; /* White border */
+  border-radius: 8px; /* Adjust the border radius for rounded corners */
+  color: #ffffff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  font: bold;
+}
+
+.blurred-button:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* White background with 20% opacity on hover */
+  color: #000000; /* Text color on hover */
+}

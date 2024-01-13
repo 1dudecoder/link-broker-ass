@@ -1,0 +1,66 @@
+.home-page {
+  background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: "#ffffff";
+}
+
+.home-text {
+  position: fixed;
+  top: 22%;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+  font-size: 3.5rem !important;
+}
+
+.my-serachbar {
+  position: absolute;
+  top: 30%;
+  width: 40%;
+}
+
+.home-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-blurtext {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 20px;
+  border-radius: 2rem;
+}
+
+.my-serachbar {
+  position: fixed;
+  top: 47%;
+  right: 20%;
+  width: 60%;
+  padding: 0.6rem;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  transition: background-color 0.3s ease-out;
+  z-index: 1000;
+  border-radius: 12px;
+  border: 0.2rem solid rgba(255, 255, 255, 0.5);
+  padding-right: 1rem;
+}
+
+.navbar {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}

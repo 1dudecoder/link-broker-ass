@@ -1,0 +1,38 @@
+/* BlurredNavbar.css */
+.blurred-navbar {
+  padding: 0.5rem;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease-out;
+  z-index: 1000;
+  border: 0.3rem solid rgba(255, 255, 255, 0.222);
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+  padding-right: 1rem;
+}
+
+/* .blurred-navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.7);
+} */
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-right div:nth-child(1) {
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.item-left p {
+  margin-left: 1rem;
+  font-weight: bolder;
+  color: #ffffff;
+}

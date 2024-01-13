@@ -1,0 +1,27 @@
+.searchbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-left,
+.items-right {
+  display: flex;
+  align-items: center;
+}
+
+.items-right div {
+  margin-left: 10px;
+}
+
+.search-text {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.search-text input {
+  padding: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}

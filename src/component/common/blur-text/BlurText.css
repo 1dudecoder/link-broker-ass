@@ -1,0 +1,10 @@
+/* TrendingText.css */
+.blurred-text {
+  background-color: transparent;
+  backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+  padding: 0.8rem;
+  color: #ffffff; /* Text color */
+  margin: 20px; /* Add margin as needed */
+  width: fit-content;
+  font: bold;
+}
